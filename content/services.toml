@@ -1,0 +1,181 @@
+# =====================================================================
+#  SERVICES — the six cards on /our-services/ and the text of the four
+#  standard service pages. (Invisalign and Patient Financing have custom
+#  layouts and live in src/pages/services.py.)
+#
+#  Writing text:   separate paragraphs with one blank line.
+#                  Start a line with "- " to make a bullet point.
+#                  You may use simple links: <a href="/contact-us/">Contact us</a>
+# =====================================================================
+
+overview_title = "Dental Services At Your Yaletown Dental Clinic"
+overview_lead = "Atlantis Dental uses technology to ensure that your dental procedure is safe, effective, comfortable, fast and affordable. With computerized, laser dentistry, and comprehensive treatment options: we have what you need."
+overview_intro = "From <a href=\"/our-services/dental-restorations/\">restorative dentistry</a> to smile makeovers, <a href=\"/\">Atlantis Dental</a> has all of your oral health needs taken care of."
+
+# ---------------- Cards on the Services overview page ----------------
+[[cards]]
+title = "Dental Restorations"
+url = "/our-services/dental-restorations/"
+image = "services-advanced-restorations.jpg"
+link_text = "Learn more about Dental Restorative treatment"
+text = "Inlays &amp; onlays, tooth coloured fillings, bridges &amp; implants."
+
+[[cards]]
+title = "Cosmetic Dentistry"
+url = "/our-services/cosmetic-dentistry/"
+image = "services-cosmetic-dentistry.jpg"
+link_text = "Learn more about our Cosmetic Dentistry services"
+text = "Zoom! whitening, Invisalign®, Lumineers &amp; cosmetic veneers."
+
+[[cards]]
+title = "Invisalign"
+url = "/invisalign/"
+image = "Aligners-Focus-2-HR.jpg"
+link_text = "Learn more about Invisalign clear aligners"
+text = "Free, no-obligation dental scan &amp; treatment plan session."
+
+[[cards]]
+title = "Preventative Dentistry"
+url = "/our-services/preventative-dentistry/"
+image = "services-preventative-dentistry.jpg"
+link_text = "Learn more about Preventative Dentistry"
+text = "Exams, hygiene, oral cancer screening – family friendly &amp; prevention focused."
+
+[[cards]]
+title = "Sedation Dentistry"
+url = "/our-services/sedation-dentistry/"
+image = "services-sleep-dentistry.jpg"
+link_text = "Learn more about our Sleep Dentistry solutions"
+text = "Conscious oral sedation for anxious patients and longer visits."
+
+[[cards]]
+title = "Patient Financing"
+url = "/patient-financing/"
+image = "young-smiling-couple-walking.jpg"
+link_text = "Learn more about 0% Patient Financing"
+text = "Bite-sized 0% interest payment plan options through 123Dentist."
+
+# ---------------- Service pages ----------------
+# Each [[pages]] block is one page. "sections" are the headed blocks of text.
+# video = YouTube ID shown at the bottom of the page, or "" for none.
+
+[[pages]]
+path = "/our-services/dental-restorations/"
+menu_label = "Dental Restorations"
+title = "Dental Restorations At Your Restorative Dentist Vancouver"
+seo_description = "Inlays & onlays, tooth coloured fillings, bridges and implants at Atlantis Dental Yaletown. Restore tooth function and transform how you look and feel."
+subtitle = "Solutions that not only restore tooth function, but transform how you look and feel!"
+image = "/assets/img/brand/services-advanced-restorations.jpg"
+image_alt = "Restorative dentistry at Atlantis Dental"
+video = ""
+intro = """
+Suffering from cracked, broken, worn, or missing teeth is a problem that affects how you look, how you feel, and how well your teeth are working. Fortunately, Atlantis Dental offers a range of solutions which not only restore tooth function, but also transform how you look and feel!
+
+Atlantis Dental has the technology paired with the quality and care you deserve. Let our dentists restore your smile to its natural perfection.
+"""
+  [[pages.sections]]
+  heading = "Inlays & Onlays"
+  text = """
+Inlays are similar to fillings, while onlays are for situations that require more substantial restoration and reconstruction. Both involve bonding material to the damaged area of your tooth, and restoring it to perfect functionality and beauty. The advantage of inlays relative to traditional fillings is that inlays increase the strength of a tooth up to 75%, which means they can last for 10 to 30 years! <a href="/contact-us/">Contact Atlantis Dental</a> for more information about Inlays &amp; Onlays or <a href="/contact-us/book-now/">request an appointment</a> online.
+"""
+  [[pages.sections]]
+  heading = "Tooth Coloured Fillings"
+  text = """
+Composites – also called white fillings or tooth-coloured fillings – are the perfect way to get both the oral health function and aesthetic look that you want. Composites provide protection and insulation from pain caused by hot or cold, and they are blended precisely to match the exact shade of your tooth. Composites are yet another way Atlantis Dental can restore your smile to its natural, brilliant perfection. <a href="/contact-us/">Contact Atlantis Dental</a> for more information about Tooth Coloured Fillings or <a href="/contact-us/book-now/">request an appointment</a> online.
+"""
+  [[pages.sections]]
+  heading = "Bridges & Implants"
+  text = """
+Gaps between teeth do more than just harm your overall appearance, and make you feel self-conscious or unattractive. Spaces also collect bacteria, plaque and other material that, over time, can cause serious oral and overall health problems. They can also cause speech problems. At Atlantis Dental, our bridges and implants fix gaps easily, quickly and permanently!
+
+We’ll customize your bridge or implant to fit the unique spacing of your teeth and mouth, plus we’ll polish them to a glistening, bright white. In fact, your permanent bridge or implant will be straighter, stronger and more beautiful than the tooth that used to be there! <a href="/contact-us/">Contact Atlantis Dental</a> for more information about Bridges and Implants.
+"""
+
+[[pages]]
+path = "/our-services/cosmetic-dentistry/"
+menu_label = "Cosmetic Dentistry"
+title = "Your Local Cosmetic Dentistry in Vancouver Near You"
+seo_description = "Zoom! teeth whitening in under 90 minutes, Invisalign clear aligners, Lumineers and cosmetic veneers at Atlantis Dental Yaletown, downtown Vancouver."
+subtitle = "Atlantis Dental features a full range of cosmetic treatments, let Dr. Karkanis transform your smile!"
+image = "/assets/img/brand/services-cosmetic-dentistry.jpg"
+image_alt = "Cosmetic dentistry at Atlantis Dental"
+video = "PshJooddEek"
+video_title = "Atlantis Dental Centre – Veneers"
+intro = """
+Whether you realize it or not, a bright, brilliant smile that makes you feel great is essential to maximizing your quality of life, and even achieving your full career potential.
+
+Atlantis Dental features a full range of cosmetic dentistry treatments. If you are unhappy with imperfections in your smile, Dr. Karkanis can give patients a smile transformation, so that each of his patients can face the future with confidence.
+"""
+  [[pages.sections]]
+  heading = "Zoom! Teeth Whitening"
+  text = """
+Over time teeth can become stained and darkened from age, coffee, tea, or smoking – but you don’t have to live with it! Atlantis Dental can dramatically whiten and brighten your smile in less than 90 minutes with Zoom! Tooth Whitening treatments available with custom bleaching trays. Whether you have a special event in the near future or you just want to look your best, let us know and we will help you achieve an attractive, natural look. Ask your Atlantis Dental team member for more information about Zoom! in office Whitening or to set up an appointment for a smile analysis.
+"""
+  [[pages.sections]]
+  heading = "Invisalign® Treatment"
+  text = """
+Invisalign® treatment is the clear, modern solution to achieving the beautiful smile you’ve always wanted, at any age. Whether you have an overbite, underbite, crossbite, widely spaced or crooked teeth, Invisalign invisible braces can help. We will design a series of clear, removable aligners to gradually straighten your smile without the inconvenience of metal braces or the social issues associated with “metal mouth”. This “lifestyle friendly” solution is very effective way to improve your smile and your bite. <a href="/contact-us/">Contact Atlantis Dental</a> for more information about Invisalign clear aligners or <a href="/contact-us/book-now/">request an appointment online</a>.
+"""
+  [[pages.sections]]
+  heading = "Lumineers Veneers & Cosmetic Veneers"
+  text = """
+Veneers are a rapid and effective makeover option that offers the strength, look, and feel of natural teeth. Teeth that are chipped, cracked, worn, spaced unevenly, crowded, or severely stained can be transformed using porcelain veneers, thin shells of durable and natural looking ceramic that bond directly to the front surface of your anterior (front) teeth. The result is a natural, brilliant looking smile without the need for extensive orthodontics or tooth restructuring. <a href="/contact-us/">Contact Atlantis Dental</a> today for more information about Lumineers Veneers or Cosmetic Veneers today.
+"""
+
+[[pages]]
+path = "/our-services/preventative-dentistry/"
+menu_label = "Preventative Dentistry"
+title = "Preventative Dentistry in Yaletown Near Downtown Vancouver"
+seo_description = "Your local Vancouver dentist – family friendly & prevention focused. Exams, ultrasonic cleanings and oral cancer screening at Atlantis Dental Yaletown."
+subtitle = "Your Local Vancouver Dentist – Family Friendly &amp; Prevention Focused"
+image = "/assets/img/family-seawall.jpg"
+image_alt = "Multigenerational family smiling on the Vancouver seawall"
+video = ""
+intro = """
+Did you know your oral health and overall health are inextricably linked? Bad oral health can negatively affect your overall energy level, how you look, and how others interact with you. And conversely, diseases such as cancer, diabetes, and heart disease (and the medications that are used to treat them) can have a negative impact on your oral health.
+
+At Atlantis Dental, we take your oral health seriously. At each and every appointment our team of dentists will carefully assess the health of your teeth and the surrounding gum and bone tissue that support them. We will identify any existing problem areas (including gum disease), and educate you on how to improve the overall health of your gums and mouth.
+
+We recommend you <a href="/contact-us/">visit Atlantis Dental</a> regularly so that our hygienists can gently and comfortably remove plaque using an ultrasonic cleaner. It’s fast, comfortable and incredibly effective. We also offer oral cancer screening as early detection is key to defeating this cancer.
+
+<a href="/contact-us/">Consult Dr. Karkanis</a> to discuss a customized Oral Health program or <a href="/contact-us/book-now/">request an appointment online.</a>
+"""
+  [[pages.cards]]
+  title = "Exams & Assessment"
+  text = "Careful assessment of your teeth and the surrounding gum and bone tissue at every appointment."
+  [[pages.cards]]
+  title = "Ultrasonic Cleaning"
+  text = "Gentle, comfortable plaque removal by our hygienists. Fast and incredibly effective."
+  [[pages.cards]]
+  title = "Oral Cancer Screening"
+  text = "VELscope screening in about 5 minutes – early detection is key."
+
+[[pages]]
+path = "/our-services/sedation-dentistry/"
+menu_label = "Sedation Dentistry"
+title = "Sedation Dentistry in Downtown Vancouver"
+seo_description = "Conscious oral sedation (sleep dentistry) at Atlantis Dental Yaletown for anxious patients, strong gag reflexes or completing multiple treatments in one visit. Nitrous sedation at Cambie."
+subtitle = "Atlantis Dental offers conscious sedation, or sleep dentistry, as an option for uneasy patients."
+image = "/assets/img/sedation-comfort.jpg"
+image_alt = "Patient resting comfortably in a dental chair"
+video = "IPCUlde1h3Y"
+video_title = "Atlantis Dental Centre – Sedation"
+intro = """
+Atlantis Dental offers conscious sedation as an alternative for patients that require it.
+
+Oral Sedation Dentistry has many benefits in helping you attain the oral health care you require and deserve. It is an excellent way to combat anxiety, to deal with strong gag reflexes, or to permit the completion of multiple treatments in a single extended visit.
+
+We can offer Oral Sedation so that you wake up feeling refreshed and with a beautiful, healthy new smile.
+
+We can also offer Nitrous sedation at our <a href="https://atlantisdentalcambie.ca/" target="_blank" rel="noopener">Cambie office</a>, by appointment only.
+
+<a href="/contact-us/">Contact Atlantis Dental</a> for more information about Sleep Dentistry today.
+"""
+  [[pages.cards]]
+  title = "Oral Sedation"
+  icon = "moon"
+  text = "Available at Atlantis Dental Yaletown. Combat anxiety, manage a strong gag reflex, or complete multiple treatments in one extended visit."
+  [[pages.cards]]
+  title = "Nitrous Sedation"
+  icon = "sparkle"
+  text = "Available at our Cambie office, by appointment only."

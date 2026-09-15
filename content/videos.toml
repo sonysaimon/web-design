@@ -1,0 +1,74 @@
+# =====================================================================
+#  VIDEOS & TESTIMONIALS (page: /why-choose-us/media/ and homepage carousel)
+#  id = the YouTube video ID — the part after "v=" in a YouTube link.
+#  Example: https://www.youtube.com/watch?v=gUdLKFOw4cs  →  id = "gUdLKFOw4cs"
+# =====================================================================
+
+[[videos]]
+title = "Dr. Tom Karkanis – Atlantis Dental Centre"
+id = "gUdLKFOw4cs"
+
+[[videos]]
+title = "Introduction to Atlantis Dental Centre, Yaletown Dentist"
+id = "p53ApTn7fmM"
+
+[[videos]]
+title = "About Atlantis Dental"
+id = "nQ3jzeAYxow"
+
+[[videos]]
+title = "Atlantis Dental Centre – Dr. Tom Karkanis"
+id = "ghP9JCpCWBM"
+
+[[videos]]
+title = "Atlantis Dental Centre – Invisalign® Provider in Vancouver"
+id = "6g9hgXwU85I"
+
+[[videos]]
+title = "Atlantis Dental Centre – Sedation"
+id = "IPCUlde1h3Y"
+
+[[videos]]
+title = "Atlantis Dental Centre – VELScope"
+id = "L8Vrb4A3X2M"
+
+[[videos]]
+title = "Atlantis Dental Centre – Veneers"
+id = "PshJooddEek"
+
+[[videos]]
+title = "Atlantis Dental Centre – Whitening Your Teeth"
+id = "Gj_bCbiiKak"
+
+# ---- Patient testimonial videos (name shown under the video) ----
+[[testimonials]]
+name = "Derek"
+id = "AnffLVuewZI"
+
+[[testimonials]]
+name = "Laleh"
+id = "cNyWrX-Fi6E"
+
+[[testimonials]]
+name = "Marvin"
+id = "R1bbwom5-Fg"
+
+[[testimonials]]
+name = "Nela"
+id = "VkodVfsWCas"
+
+[[testimonials]]
+name = "Sheila"
+id = "b8YMpRyOqiM"
+
+[[testimonials]]
+name = "Stacey"
+id = "ewLl-o6IxDQ"
+
+[[testimonials]]
+name = "Tony"
+id = "vrSeFT7Y82E"
+
+[[testimonials]]
+name = "Colin"
+id = "23SfgvrSGeQ"

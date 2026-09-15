@@ -1,0 +1,24 @@
+# =====================================================================
+#  HOW TO ADD A BLOG POST
+#  1. Copy this file and rename the copy, e.g.  2026-10-01-fall-checkup.toml
+#     (it MUST end in .toml — this template ends in .txt so it is ignored)
+#  2. Fill in the fields below.
+#  3. Commit. The post appears at /blog/<slug>/ and on the blog index.
+#  Optional image: upload to assets/img/blog/ and set image = "/assets/img/blog/your-file.jpg"
+# =====================================================================
+
+title = "Your post title here"
+date = "Oct 1, 2026"          # format: Mon D, YYYY  (e.g. Jan 5, 2027)
+slug = "your-post-title-here" # lowercase words joined by hyphens; becomes the web address
+image = ""                    # optional, e.g. "/assets/img/blog/fall-checkup.jpg"
+
+# Separate paragraphs with a blank line. Start a line with "- " for a bullet.
+# You can use simple links: <a href="/contact-us/book-now/">book an appointment</a>
+body = """
+First paragraph of your post.
+
+Second paragraph.
+
+- A bullet point
+- Another bullet point
+"""
