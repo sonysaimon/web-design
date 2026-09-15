@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://atlantisdental.ca/sitemap.xml
