@@ -68,6 +68,15 @@ def main():
     open(os.path.join(DIST, ".nojekyll"), "w").write("")
     if os.path.exists(os.path.join(ROOT, "CNAME")):
         shutil.copyfile(os.path.join(ROOT, "CNAME"), os.path.join(DIST, "CNAME"))
+    # Standalone static sites (demos for other clients) live in sites/<name>/ and are
+    # published as-is at /<name>/. Nothing in them is processed.
+    sites_dir = os.path.join(ROOT, "sites")
+    if os.path.isdir(sites_dir):
+        for name in sorted(os.listdir(sites_dir)):
+            src = os.path.join(sites_dir, name)
+            if os.path.isdir(src) and not name.startswith("."):
+                shutil.copytree(src, os.path.join(DIST, name))
+                print(f"Copied standalone site sites/{name} -> /{name}/")
     print(f"Built {len(urls)} pages -> {DIST}")
 
 

@@ -18,6 +18,7 @@ modern refresh using the existing wave logo, navy `#17213C` and bright blue `#01
 | `blog/_posts.json` | The 78 migrated blog posts (title, date, HTML) exported from the old site. |
 | `assets/` | CSS, JS, images (team headshots, brand assets, AI hero images, blog images), patient-form PDFs. |
 | `dist/` | **The deployable website** (108 pages). Upload this folder’s contents to any static host. |
+| `sites/<name>/` | Standalone static demo sites for other clients, published as-is at `/<name>/` (e.g. `sites/her-nails-lounge/` → https://web.soichirosaimon.com/her-nails-lounge/). Each has its own README. |
 | `preview/` | Screenshots used during design review. |
 | `CONTENT-INVENTORY.md` | Everything captured from the old site, for reference. |
 
