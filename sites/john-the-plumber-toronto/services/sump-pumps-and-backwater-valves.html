@@ -139,12 +139,41 @@
         <li><a href="https://maps.google.com/?cid=16102994665001874261" rel="noopener">Leave a Google review</a></li>
       </ul></div>
     </div>
+    <nav class="legal" aria-label="Policies">
+      <a href="https://johntheplumber.ca/privacy-policy/" rel="noopener">Privacy Policy</a>
+      <a href="https://johntheplumber.ca/cookie-policy-ca/" rel="noopener">Cookie Policy</a>
+      <a href="https://johntheplumber.ca/loyalty-program-terms-and-conditions/" rel="noopener">Loyalty Program – Terms and Conditions</a>
+      <a href="https://johntheplumber.ca/warranty/" rel="noopener">Warranty Information</a>
+    </nav>
     <div class="bottom">
-      <span>© <span data-year>2026</span> John The Plumber Toronto. A branch of John The Plumber, serving Ontario since 2006.</span>
+      <span>© <span data-year>2026</span> John The Plumber Toronto. All rights reserved. A branch of John The Plumber, serving Ontario since 2006.</span>
       <span>Site by <a href="https://web.soichirosaimon.com" rel="noopener">Sony Saimon</a></span>
     </div>
   </div>
 </footer>
+<div class="textus" data-textus>
+  <button class="textus-btn" type="button" aria-expanded="false" aria-controls="textus-panel"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm3 4v2h10V8H7zm0 4v2h7v-2H7z"/></svg> Text us</button>
+  <div class="textus-panel" id="textus-panel" role="dialog" aria-labelledby="textus-h" hidden>
+    <div class="textus-head">
+      <h3 id="textus-h"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm3 4v2h10V8H7zm0 4v2h7v-2H7z"/></svg> Get a quick response via text.</h3>
+      <button class="textus-close" type="button" aria-label="Close">&times;</button>
+    </div>
+    <p class="textus-bubble">Enter your information and our team will text you shortly.</p>
+    <form class="form textus-form" data-request action="https://formspree.io/f/YOUR_FORM_ID" method="POST" aria-label="Text us">
+      <input type="hidden" name="source" value="Text us widget">
+      <div class="hide-when-sent" style="display:grid;gap:0.8rem">
+        <label>Name <input type="text" name="name" autocomplete="name" required></label>
+        <label>Mobile phone <input type="tel" name="phone" autocomplete="tel" required></label>
+        <label>Message <textarea name="details" rows="3"></textarea></label>
+        <p class="fine">By sending this, you agree that John The Plumber Toronto (984 Caledonia Rd) may text and call the number above about your request, including with automated messages. Message and data rates may apply; frequency varies. Consent is not a condition of purchase. Reply STOP to opt out or HELP for help. See our <a href="https://johntheplumber.ca/loyalty-program-terms-and-conditions/" rel="noopener">terms</a> and <a href="https://johntheplumber.ca/privacy-policy/" rel="noopener">privacy policy</a>.</p>
+        <button class="btn btn-primary" type="submit">Send</button>
+        <p class="fine">Prefer your own messaging app? <a href="sms:+16476970446">Text (647) 697-0446</a>.</p>
+      </div>
+      <p class="ok" role="status">Thanks. We will text you back shortly. If it is urgent, call <a href="tel:+16476970446">(647) 697-0446</a>.</p>
+    </form>
+  </div>
+</div>
+
 <div class="mobile-bar" aria-label="Quick actions">
   <a class="btn btn-outline" href="tel:+16476970446"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><path d='M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z'/></svg> Call</a>
   <a class="btn btn-primary" href="../book.html"><svg viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' aria-hidden='true'><rect x='3' y='4' width='18' height='18' rx='2'/><path d='M16 2v4M8 2v4M3 10h18'/><path d='M9 16l2 2 4-4'/></svg> Book online</a>

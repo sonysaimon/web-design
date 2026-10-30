@@ -86,5 +86,15 @@
   }
 
   // Year
+  // Text us widget
+  document.querySelectorAll("[data-textus]").forEach(function (w) {
+    var btn = w.querySelector(".textus-btn"), panel = w.querySelector(".textus-panel"), close = w.querySelector(".textus-close");
+    function open() { panel.hidden = false; w.classList.add("open"); btn.setAttribute("aria-expanded", "true"); var f = panel.querySelector("input"); if (f) f.focus(); }
+    function shut() { panel.hidden = true; w.classList.remove("open"); btn.setAttribute("aria-expanded", "false"); btn.focus(); }
+    btn.addEventListener("click", function () { panel.hidden ? open() : shut(); });
+    close.addEventListener("click", shut);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !panel.hidden) shut(); });
+  });
+
   document.querySelectorAll("[data-year]").forEach(function (el) { el.textContent = String(new Date().getFullYear()); });
 })();

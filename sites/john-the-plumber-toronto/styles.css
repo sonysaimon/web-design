@@ -310,7 +310,7 @@ strong { font-weight: 600; }
 .form .btn { justify-self: start; }
 .form .ok { display: none; background: var(--blue-soft); color: var(--navy); border-radius: 8px; padding: 1rem; font-weight: 500; }
 .form.sent .ok { display: block; }
-.form.sent .hide-when-sent { display: none; }
+.form.sent .hide-when-sent { display: none !important; }
 
 /* ---------- footer ---------- */
 .footer { background: var(--navy-deep); color: #9fb3cd; padding: var(--s-7) 0 calc(var(--s-6) + 70px); font-size: 0.95rem; }
@@ -457,3 +457,34 @@ strong { font-weight: 600; }
 .page-hero .wrap > * { min-width: 0; }
 .page-hero img { width: 100%; }
 .sticker { pointer-events: none; }
+
+/* Footer policy links */
+.footer .legal { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem 0; margin-bottom: var(--s-4); font-weight: 600; color: #d7e2f1; }
+.footer .legal a { color: #d7e2f1; }
+.footer .legal a + a::before { content: "•"; color: #7f94b2; margin: 0 0.6rem; }
+
+/* Text us widget */
+.textus { position: fixed; right: 16px; bottom: 16px; z-index: 70; display: grid; justify-items: end; gap: 0.6rem; }
+.textus-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--blue); color: #fff; border: 0; border-radius: 999px; padding: 0.75rem 1.2rem; font: 700 1rem var(--body); box-shadow: 0 6px 20px rgba(17,47,85,0.3); cursor: pointer; }
+.textus-btn:hover { background: var(--navy); }
+.textus-btn:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+.textus-btn svg { width: 20px; height: 20px; }
+.textus-panel { width: min(360px, calc(100vw - 32px)); background: var(--paper); border-radius: 16px; box-shadow: 0 18px 50px rgba(11,31,58,0.35); overflow: hidden; max-height: calc(100vh - 110px); overflow-y: auto; }
+.textus-panel[hidden] { display: none; }
+.textus-head { display: flex; align-items: center; justify-content: space-between; gap: 0.6rem; background: var(--blue); color: #fff; padding: 0.9rem 1rem; }
+.textus-head h3 { margin: 0; font: 700 1rem var(--body); display: flex; align-items: center; gap: 0.5rem; }
+.textus-close { background: transparent; border: 0; color: #fff; font-size: 1.6rem; line-height: 1; cursor: pointer; padding: 0 0.2rem; }
+.textus-close:focus-visible { outline: 2px solid var(--yellow); }
+.textus-bubble { margin: 1rem 1rem 0; background: #dbe4f2; color: var(--ink); border-radius: 14px 14px 14px 4px; padding: 0.8rem 1rem; font-size: 0.95rem; }
+.textus-form { margin: 0.8rem; padding: 1rem; box-shadow: 0 1px 4px rgba(11,31,58,0.1); }
+.textus-form input, .textus-form textarea { border-width: 0 0 1.5px; border-radius: 0; padding: 0.5rem 0; background: transparent; }
+.textus-form input:focus, .textus-form textarea:focus { box-shadow: none; border-color: var(--blue); }
+.textus-form .btn { justify-self: center; min-width: 120px; }
+.textus-form .fine { font-size: 0.75rem; }
+@media (max-width: 800px) {
+  .textus { bottom: calc(84px + env(safe-area-inset-bottom)); right: 12px; }
+  .textus.open .textus-btn { display: none; }
+  .textus-panel { max-height: calc(100vh - 110px); }
+  .footer .legal { flex-direction: column; align-items: center; gap: 0.5rem; }
+  .footer .legal a + a::before { content: none; }
+}
