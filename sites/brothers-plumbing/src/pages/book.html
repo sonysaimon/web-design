@@ -1,0 +1,48 @@
+<!--meta {"title": "Book a plumber online | Brothers Plumbing, Toronto", "desc": "Request a call back from Brothers Plumbing. Name, phone and what's wrong; a technician calls you back, usually the same day. For emergencies call 647-247-2230.", "path": "book.html", "cur": "book"} -->
+<section class="cta-final section">
+  <div class="wrap">
+    <div>
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span><span>Book online</span></nav>
+      <span class="eyebrow">Book a visit</span>
+      <h1 style="color:#fff">Tell us what's going on.</h1>
+      <p class="lead">For anything urgent, call. For everything else, leave the details here and a technician phones you back, usually the same day, with questions and an arrival window.</p>
+      <div class="contact-lines">
+        <div><b><a href="tel:+16472472230">647-247-2230</a></b>Call or text · 7 am – 7 pm, 7 days · emergency line 24/7</div>
+        <div><b>130 Osler St</b>Toronto, ON M6N 2Y8 · walk-ins welcome in office hours</div>
+        <div><b><a href="mailto:info@brothersplumbing.ca">info@brothersplumbing.ca</a></b>Email for quotes and commercial accounts</div>
+      </div>
+    </div>
+    <form class="form" data-book action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <h3>Request a call back</h3>
+      <p class="note">Name, phone and what's wrong. That's it.</p>
+      <div class="form-row">
+        <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" required autocomplete="name"></div>
+        <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" required autocomplete="tel"></div>
+      </div>
+      <div class="field"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+      <div class="field"><label for="f-service">Service</label><select id="f-service" name="service" data-prefill-service><option value="">Not sure / something else</option>{{service_options}}</select></div>
+      <div class="field"><label for="f-issue">What's going on?</label><textarea id="f-issue" name="issue" data-prefill-issue placeholder="e.g. kitchen sink backing up since Sunday, gurgles when the dishwasher drains"></textarea></div>
+      <div class="form-row">
+        <div class="field"><label for="f-area">Address or neighbourhood</label><input id="f-area" name="neighbourhood" placeholder="e.g. 130 Osler St / The Junction"></div>
+        <div class="field"><label for="f-when">Best time to call</label><input id="f-when" name="when" placeholder="e.g. after 4 pm"></div>
+      </div>
+      <label class="check urgent"><input type="checkbox" name="emergency" value="yes"> This is an emergency (active leak, no water, sewage backup). If so, please call 647-247-2230 now.</label>
+      <label class="check"><input type="checkbox" name="consent" value="yes"> Brothers Plumbing may text or email me about this request and occasional offers. Unsubscribe any time.</label>
+      <button class="btn btn-primary" type="submit">Request a call back</button>
+      <p class="form-status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap two-col">
+    <div class="prose">
+      <h2>What happens after you send this</h2>
+      <p>The office reads it during open hours, 7 am to 7 pm, 7 days. A technician calls the number you gave, asks a few questions so the truck arrives with the right parts, and gives you an arrival window. You get a written price on site before any work starts.</p>
+      <h2>Coupons</h2>
+      <p>$50 off any service and $100 off a sewer drain replacement, one per visit. Mention them on the call; no code needed.</p>
+    </div>
+    <aside class="sticky-aside">
+      <div class="map"><iframe title="Map of Brothers Plumbing at 130 Osler Street, Toronto" src="https://www.google.com/maps?q=130+Osler+St,+Toronto,+ON+M6N+2Y8&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+    </aside>
+  </div>
+</section>
