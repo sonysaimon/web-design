@@ -77,17 +77,17 @@ a:hover .arr, .link:hover .arr { transform: translateX(3px); }
 .utility a { color: var(--on-dark); font-weight: 600; text-decoration: none; }
 .util-area { display: none; }
 .site-header { position: sticky; top: 0; z-index: 50; background: rgba(246, 242, 236, .92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
-.site-header .wrap { display: flex; align-items: center; gap: 24px; height: var(--head-h); }
+.site-header .wrap { display: flex; align-items: center; gap: 20px; height: var(--head-h); }
 .brand { display: flex; align-items: center; gap: 10px; text-decoration: none; margin-right: auto; }
 .brand-mark { flex: none; }
 .brand-text { font-family: var(--display); font-size: 1.25rem; line-height: 1; letter-spacing: -.01em; white-space: nowrap; margin: 0; }
 .brand-text strong { font-weight: 600; }
 .nav { display: none; }
-.nav ul { display: flex; gap: 26px; }
-.nav a { text-decoration: none; font-weight: 600; font-size: .95rem; padding: 6px 0; border-bottom: 2px solid transparent; }
+.nav ul { display: flex; gap: 20px; }
+.nav a { text-decoration: none; font-weight: 600; font-size: .92rem; padding: 6px 0; border-bottom: 2px solid transparent; white-space: nowrap; }
 .nav a:hover, .nav a[aria-current="page"] { border-color: var(--brass); }
 .header-cta { display: none; gap: 10px; }
-.header-cta .btn { padding: 11px 18px; font-size: .95rem; }
+.header-cta .btn { padding: 11px 16px; font-size: .92rem; white-space: nowrap; }
 .burger { background: none; border: 1.5px solid var(--ink); border-radius: 10px; width: 44px; height: 44px; display: grid; place-content: center; gap: 5px; cursor: pointer; padding: 0; }
 .burger span { display: block; width: 20px; height: 2px; background: var(--ink); transition: transform .2s, opacity .2s; }
 .burger[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
@@ -316,6 +316,7 @@ figcaption span { color: #cfc7bb; font-size: .8rem; }
 }
 @media (min-width: 1000px) {
   .nav, .header-cta { display: flex; }
+  .header-cta .btn-tel { display: none; }
   .burger, .mobile-nav { display: none !important; }
   .mobile-bar { display: none; }
   .site-footer { padding-bottom: 48px; }
@@ -338,6 +339,11 @@ figcaption span { color: #cfc7bb; font-size: .8rem; }
   .review-grid .review:nth-child(4), .review-grid .review:nth-child(5) { grid-column: span 3; }
   .planner-facts strong { font-size: 1.5rem; }
 }
+@media (min-width: 1180px) {
+  .header-cta .btn-tel { display: inline-flex; }
+  .nav ul { gap: 24px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .planner-panel, .arr, .service-card { animation: none; transition: none; }
