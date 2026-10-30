@@ -1,0 +1,46 @@
+{
+  "name": "ADP Toronto Plumbing",
+  "legal": "ADP Toronto Plumbing (Absolute Draining & Plumbing)",
+  "phone_display": "416-822-2221",
+  "phone_tel": "+14168222221",
+  "email": "info@absolutedp.com",
+  "street": "51 Homewood Ave #1",
+  "city": "Toronto",
+  "region": "ON",
+  "postal": "M4Y 2K1",
+  "lat": 43.6647467,
+  "lng": -79.374937,
+  "hours": "Open 24 hours",
+  "founded": 1998,
+  "rating": 4.4,
+  "review_count": 63,
+  "google_reviews_url": "https://maps.google.com/?cid=12939387111798307033",
+  "google_write_review_url": "https://g.page/r/Cdl4AboF8JGzEB0/review",
+  "facebook": "https://www.facebook.com/ADP.Toronto.Plumbing/",
+  "homestars": "https://www.homestars.com/profile/2806531-adp-toronto-plumbing",
+  "site_url": "https://web.soichirosaimon.com/adp-toronto-plumbing/",
+  "formspree": "https://formspree.io/f/YOUR_FORM_ID",
+  "services": [
+    {"slug": "sewer-drain-repair", "name": "Sewer backup & drain repair", "short": "Sewer & drain repair", "eyebrow": "Repair", "blurb": "Backups, tree roots in clay pipe, collapsed laterals. Camera first, then trenchless lining or excavation.", "img": "photos/job-drain-excavation.jpg", "svg": "sewer"},
+    {"slug": "backwater-valve-sump-pump", "name": "Backwater valve & sump pump", "short": "Backwater valve & sump pump", "eyebrow": "Flood protection", "blurb": "Stop the City sewer from surging into your basement. Toronto pays up to $6,650 back, and we file it.", "img": "photos/job-backwater-valve.jpg", "svg": "valve"},
+    {"slug": "water-main-lead-pipe", "name": "Water main & lead pipe replacement", "short": "Water main & lead pipe", "eyebrow": "Replace", "blurb": "Low pressure, a lead service, a burst main. New copper to the City shutoff, connected even under pressure.", "img": "", "svg": "watermain"},
+    {"slug": "drain-cleaning-camera-inspection", "name": "Drain cleaning & camera inspection", "short": "Drain cleaning & camera", "eyebrow": "Clear", "blurb": "Snaking, hydro-jetting and CCTV with video and sound, so you see what we see before you pay for a repair.", "img": "", "svg": "camera"},
+    {"slug": "emergency-plumbing", "name": "Emergency plumbing, 24 hours", "short": "Emergency plumbing", "eyebrow": "Emergency", "blurb": "Burst pipes, overflowing toilets, sewage in the basement. Open 24 hours, flat-rate quote before we start.", "img": "", "svg": "night"},
+    {"slug": "basement-waterproofing", "name": "Basement waterproofing", "short": "Basement waterproofing", "eyebrow": "Protect", "blurb": "Interior and exterior membranes, new weeping tile, foundation crack repair. Dry for good, not for a season.", "img": "", "svg": "foundation"}
+  ],
+  "also": ["Frozen pipe repair", "Toilets, faucets & fixtures", "Building trap replacement", "Backflow prevention", "Plumbing inspections", "Trenchless pipe bursting", "Commercial plumbing"],
+  "rebates": [
+    {"id": "valve", "label": "Backwater valve", "amount": 1600, "max_qty": 2, "note": "per device, up to two"},
+    {"id": "sump", "label": "Sump pump", "amount": 2250, "max_qty": 1, "note": "one device"},
+    {"id": "battery", "label": "Battery backup for the sump pump", "amount": 300, "max_qty": 1, "note": "needs a sump pump"},
+    {"id": "severance", "label": "Weeping tile severance & capping", "amount": 400, "max_qty": 1, "note": "disconnects your foundation drain from the sewer"},
+    {"id": "assessment", "label": "Home plumbing assessment", "amount": 500, "max_qty": 1, "note": "one-time"}
+  ],
+  "rebate_cap": 6650,
+  "areas": {
+    "Toronto": ["Downtown & Cabbagetown", "East York & the Danforth", "North York", "Scarborough", "Etobicoke", "York & Weston"],
+    "York Region": ["Vaughan", "Woodbridge", "Richmond Hill", "Markham"],
+    "Peel": ["Mississauga", "Brampton", "Caledon"],
+    "Halton": ["Oakville", "Burlington", "Milton", "Halton Hills, Georgetown & Acton"]
+  }
+}
