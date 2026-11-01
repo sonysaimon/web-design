@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://web.soichirosaimon.com/mr-quick-fob-vancouver/sitemap.xml
