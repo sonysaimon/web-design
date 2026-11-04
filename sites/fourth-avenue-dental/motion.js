@@ -44,7 +44,8 @@
 
   document.querySelectorAll('[data-parallax]').forEach((frame) => {
     const img = frame.querySelector('img, video'); if (!img) return;
-    const dist = num(frame, 'parallaxDistance', 96), scale = num(frame, 'parallaxScale', 1.12);
+    const smallHeart = frame.closest('.hero-visual') && window.innerWidth <= 900; // the small heart beside the headline moves less, so the photo always fills it
+    const dist = smallHeart ? frame.offsetHeight * 0.15 : num(frame, 'parallaxDistance', 96), scale = num(frame, 'parallaxScale', 1.12);
     gsap.set(img, { scale, force3D: true, transformOrigin: 'center center' });
     gsap.fromTo(img, { y: -dist }, { y: dist, ease: 'none', scrollTrigger: { trigger: frame, start: 'top bottom', end: 'bottom top', scrub: true } });
   });

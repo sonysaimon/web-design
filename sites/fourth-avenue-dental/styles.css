@@ -319,3 +319,17 @@ address a:hover { color: var(--gold); }
   .menu a { padding: 8px 7px; font-size: 14px; white-space: nowrap; }
   .nav-cta .btn { padding-left: 14px; padding-right: 14px; font-size: 14px; white-space: nowrap; }
 }
+
+/* Phones and tablets: the heart sits beside the headline, as it does on desktop */
+@media (max-width: 900px) {
+  .hero-grid { grid-template-columns: minmax(0, 1.12fr) minmax(0, .88fr); column-gap: clamp(8px, 2.5vw, 24px); row-gap: 0; align-items: center; }
+  .hero-copy, .hero-visual { display: contents; }
+  .hero-grid .eyebrow { grid-column: 1 / -1; }
+  .hero-title { grid-column: 1; grid-row: 2; margin: 0; }
+  .hero-visual .heart-frame { grid-column: 2; grid-row: 2; width: 100%; margin: 0; }
+  .hero-facts { grid-column: 1 / -1; margin-top: 22px; max-width: 60ch; }
+  .hero-actions, .hero-note, .proof { grid-column: 1 / -1; }
+}
+@media (max-width: 560px) {
+  .hero-title { font-size: clamp(33px, 10.2vw, 46px); }
+}
