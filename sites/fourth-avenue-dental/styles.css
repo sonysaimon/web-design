@@ -258,3 +258,64 @@ address a:hover { color: var(--gold); }
   .hero-word > span { transform: none !important; opacity: 1 !important; }
   .heart-frame img, .band-media img { transform: none !important; }
 }
+
+/* ---- Clinic logo in the header ---- */
+.brand-logo { display: block; height: 40px; width: auto; max-width: 100%; }
+
+/* ---- Blog (blog.html and blog/*.html) ---- */
+.blog-head { padding: clamp(120px, 15vh, 160px) 0 clamp(24px, 4vw, 40px); }
+.blog-head h1 { margin-bottom: 14px; }
+.blog-head .lede { max-width: 620px; margin: 0; }
+.blog-list { padding: 0 0 clamp(64px, 8.5vw, 112px); }
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.blog-card { display: flex; flex-direction: column; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: inherit; transition: var(--transition-fast); }
+.blog-card:hover { border-color: var(--line-strong); }
+.blog-card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.blog-card-body { display: flex; flex-direction: column; flex: 1; padding: 22px; }
+.blog-card time, .blog-meta { font-size: 14px; color: var(--mute); }
+.blog-card h2 { font-size: 22px; line-height: 1.22; margin: 8px 0 10px; }
+.blog-card p { font-size: 15.5px; margin: 0 0 16px; }
+.blog-more { margin-top: auto; font-weight: 600; font-size: 15px; color: var(--ink); }
+.blog-article { padding: clamp(110px, 14vh, 140px) 0 clamp(64px, 8.5vw, 112px); }
+.blog-narrow { max-width: 740px; }
+.blog-back { margin: 0 0 18px; font-size: 15px; }
+.blog-back a { color: var(--cocoa); text-decoration: none; font-weight: 500; }
+.blog-back a:hover { color: var(--ink); }
+.blog-article h1 { font-size: clamp(32px, 4.4vw, 50px); line-height: 1.12; margin-bottom: 14px; }
+.blog-meta { margin: 0 0 6px; }
+.blog-cats { margin: 0; font-size: 14px; color: var(--gold); font-weight: 500; }
+.blog-hero { max-width: 980px; margin-top: 28px; margin-bottom: 36px; }
+.blog-hero img { width: 100%; max-height: 520px; object-fit: cover; border-radius: var(--radius); }
+.blog-body h2 { font-size: clamp(23px, 2.6vw, 29px); line-height: 1.22; margin: 38px 0 12px; }
+.blog-body h3 { font-size: 21px; margin: 28px 0 10px; }
+.blog-body p { margin: 0 0 16px; }
+.blog-body ul { margin: 0 0 18px; padding-left: 22px; }
+.blog-body li { margin-bottom: 8px; }
+.blog-body a { color: var(--ink); }
+.blog-cta { margin-top: 44px; padding: clamp(24px, 4vw, 34px); background: var(--paper-2); border-radius: var(--radius); }
+.blog-cta h2 { font-size: 26px; margin-bottom: 8px; }
+.blog-cta p { margin: 0 0 18px; }
+.blog-cta-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.blog-pager { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 28px; }
+.blog-pager a { padding: 16px 0; border-top: 1px solid var(--line-strong); text-decoration: none; color: var(--ink); font-weight: 500; line-height: 1.35; }
+.blog-pager span { display: block; margin-bottom: 4px; font-size: 13px; font-weight: 400; color: var(--mute); }
+.blog-pager-older { grid-column: 2; text-align: right; }
+@media (max-width: 900px) {
+  .blog-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .brand-logo { height: 34px; }
+  .blog-grid { grid-template-columns: 1fr; }
+  .blog-pager { grid-template-columns: 1fr; }
+  .blog-pager-older { grid-column: auto; text-align: left; }
+}
+/* Blog thumbnails: show the whole banner so its text is not cropped */
+.blog-card img { aspect-ratio: 1000 / 424; object-fit: contain; background: #0d0a0a; }
+/* Room for the logo and the Blog link on small laptops and tablets */
+.brand { flex-shrink: 0; }
+@media (min-width: 901px) and (max-width: 1180px) {
+  .nav-row { gap: 12px; }
+  .brand-logo { height: 34px; }
+  .menu a { padding: 8px 7px; font-size: 14px; white-space: nowrap; }
+  .nav-cta .btn { padding-left: 14px; padding-right: 14px; font-size: 14px; white-space: nowrap; }
+}
