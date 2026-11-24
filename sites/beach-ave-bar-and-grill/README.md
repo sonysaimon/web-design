@@ -11,7 +11,7 @@ replace their thin Squarespace page. Three pages, static, no build step.
 - `visit.html` — hours, map, getting here (seawall/bike/parking/transit), FAQ.
 - `services.js` — **all menu items and prices live here.** Edit this file to change the menu;
   both the menu page and the home happy hour board update automatically. Prices copied from
-  the April 2026 printed menus.
+  the October 2026 printed menus.
 - `styles.css` — design tokens at the top of the file (colours from their logo).
 - `main.js` — sunset time calculation (no network calls), menu rendering, scroll reveals.
 - `photos/` — optimized photos taken from beachavebarandgrill.com (their own photography).

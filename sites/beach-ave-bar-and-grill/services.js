@@ -1,4 +1,4 @@
-/* Beach Ave Bar & Grill — menu data (from the April 2026 printed menus).
+/* Beach Ave Bar & Grill — menu data (from the October 2026 printed menus on beachavebarandgrill.com).
    To change a price or dish, edit it here; menu.html and the home-page
    happy hour board render from this file. Prices do not include tax. */
 
@@ -15,12 +15,9 @@ const MENUS = {
           { name: "Calamari", desc: "Spiced squid on tartar sauce, shishito peppers, cucumber, crispy chickpeas, sumac aioli", price: "18.25" },
           { name: "Seafood Chowder", desc: "Crab, prawns, smoked salmon, lobster stock, croutons", price: "14.25" },
           { name: "Guacamole & Chips", desc: "In-house guacamole, corn tortilla chips", price: "12.95" },
-          { name: "Bao Pockets", desc: "Korean BBQ pork, pickled cabbage and carrots, cilantro crema, cucumber", price: "14.95" },
-          { name: "Tuna Poke Tostadas", desc: "Two crispy corn tortillas topped with tuna poke, avocado, pineapple salsa, mango coulis, macadamia nuts, sesame seeds", price: "12.50" },
+          { name: "Beef Barley Soup", desc: "Slow cooked beef, rich demi broth, veggies, barley", price: "14.95" },
           { name: "Avocado Tostadas", desc: "Two crispy corn tortillas topped with avocado, refried beans, red pepper pico, lettuce, feta, cilantro crema, Valentina's hot sauce", price: "11.50" },
-          { name: "Sticky BBQ Rib Ends", desc: "Pork rib ends, Hawaiian BBQ sauce glaze", price: "16.95" },
-          { name: "Buffalo Chicken Sliders", desc: "Buffalo chicken, iceberg lettuce, tomato, pickles, chipotle mayo", price: "15.75" },
-          { name: "Seven Layer Bean Dip & Chips", desc: "Refried beans, guacamole, sour cream, olives, queso cheese sauce, red pepper pico, green onion", price: "13.95" }
+          { name: "Crispy Pork Rib Ends", desc: "Lemongrass BBQ glaze or signature dry rub", price: "16.95" }
         ]
       },
       {
@@ -28,7 +25,7 @@ const MENUS = {
         note: "Two tacos per order — add a third for $7",
         items: [
           { name: "Prawn", desc: "Chipotle prawns, honey slaw, red pepper pico", price: "14.50" },
-          { name: "Jerk Chicken", desc: "Jerk chicken, shishito aioli, napa cabbage, mango jicama salad", price: "14.75" },
+          { name: "Korean Chicken", desc: "Korean fried chicken, yogurt lime sauce, pickled veggies, cucumber, radish, lettuce, onion, sesame", price: "14.75" },
           { name: "Ahi Tuna", desc: "Seared rare ahi tuna, pickled cabbage, cilantro crema, cucumber, guacamole, mango coulis, serrano peppers", price: "15.50" }
         ]
       },
@@ -49,22 +46,15 @@ const MENUS = {
           { name: "Hickory BBQ Burger", desc: "Double stacked CAB beef burger, bacon, cheddar, pickles, bbq sauce, chipotle mayo, hickory sticks, brioche", price: "23.50" },
           { name: "Fried Chicken Sandwich", desc: "Crispy chicken breast, spicy cajun butter, pickles, mayo, honey slaw, brioche", price: "23.95" },
           { name: "Seafood Club", desc: "Crab, prawns, smoked salmon, bacon, old bay mayo, veggies, sourdough", price: "24.95" },
-          { name: "Bacon Cubano Sandwich", desc: "Mojo pork, bacon, mustard blend, swiss cheese, mayo, pickles, pressed brioche", price: "23.95" },
+          { name: "Fish Po'Boy", desc: "Fried cod, remoulade sauce, pickled onions, lettuce, tomato, pickle, brioche", price: "20.95" },
           { name: "Beyond Beach Burger", desc: "Plant-based burger, american cheddar, veggies, guacamole, brioche", price: "23.50" }
-        ]
-      },
-      {
-        name: "Mussels",
-        items: [
-          { name: "Chorizo Tomato", desc: "Atlantic mussels, onion, red pepper, chorizo sausage, tomato broth", price: "21.50" },
-          { name: "Coconut Lemongrass", desc: "Atlantic mussels, onion, red pepper, coconut lemongrass broth", price: "21.50" }
         ]
       },
       {
         name: "Big Plates",
         items: [
           { name: "Beef Bolognese Linguine", desc: "San Marzano bolognese sauce, fresh basil, parmesan", price: "24.50" },
-          { name: "Seafood Pasta", desc: "Prawns, salmon, mussels, sundried tomato, calabrian chili, lemon dill cream sauce", price: "27.95" },
+          { name: "Seafood Pasta", desc: "Prawns, salmon, scallops, sundried tomato, calabrian chili, lemon dill cream sauce", price: "27.95" },
           { name: "Cod & Chips", desc: "Two pieces of cod, fries, honey slaw, lemon caper tartar", price: "22.95" },
           { name: "Jambalaya", desc: "Creole style chicken, prawns, chorizo, celery, red peppers, green onion, tomato brown rice", price: "25.50" }
         ]
@@ -127,13 +117,13 @@ const MENUS = {
       },
       {
         name: "Handhelds",
-        note: "All served with fries. Substitute caesar or beach house salad $1.95, dirty fries $2.50",
+        note: "All served with fries. Substitute caesar or beach house salad $1.95, dirty fries $2.50. Add-ons: guacamole $2.95, bacon $2.50, mushrooms $2.50, gluten-free bun $2.50",
         items: [
           { name: "Beach Burger", desc: "Double stacked CAB beef burger, cheddar, beach sauce, veggies, brioche", price: "22.95" },
           { name: "Hickory BBQ Burger", desc: "Double stacked CAB beef burger, bacon, cheddar, pickles, bbq sauce, chipotle mayo, hickory sticks, brioche", price: "23.50" },
           { name: "Fried Chicken Sandwich", desc: "Crispy chicken breast, cajun butter, pickles, mayo, honey slaw, brioche", price: "23.95" },
-          { name: "Bacon Cubano", desc: "Mojo pork, bacon, mustard blend, swiss cheese, mayo, pickles, pressed brioche", price: "23.95" },
-          { name: "Beyond Beach Burger", desc: "Plant-based burger, american cheddar, veggies, hummus, brioche", price: "23.50" }
+          { name: "Fish Po'Boy", desc: "Fried cod, remoulade sauce, pickled onions, lettuce, tomato, pickles, brioche bun", price: "20.95" },
+          { name: "Beyond Beach Burger", desc: "Plant-based burger, american cheddar, veggies, guacamole, brioche", price: "23.50" }
         ]
       },
       {
@@ -154,7 +144,7 @@ const MENUS = {
         name: "Beer & Cider",
         note: "16oz on tap",
         items: [
-          { name: "Strange Fellows Talisman Pale Ale", desc: "4.0%", price: "8.50" },
+          { name: "Seaside Pale Ale", desc: "5.3%", price: "8.50" },
           { name: "Phillips Reverb West Coast IPA", desc: "6.4%", price: "8.50" },
           { name: "Parkside Pilsner", desc: "4.9%", price: "8.25" },
           { name: "Beach Time Lager", desc: "4.5%", price: "8.00" },
@@ -170,10 +160,10 @@ const MENUS = {
         name: "Cocktails",
         items: [
           { name: "Beach Blue Margarita", desc: "2oz — tequila, beach blue mix, lime juice, basil tincture. Upgrade to Don Julio Reposado +$4.50", price: "14.25" },
-          { name: "Tropical Treat", desc: "1.5oz — house rum blend, mango nectar, lime juice, coconut water, coconut milk clarified (contains soy)", price: "16.50" },
-          { name: "Imitation Gold", desc: "2oz — rye, Grand Marnier, orange juice, cava, chocolate bitters", price: "14.50" },
+          { name: "Rum Runner's Roast", desc: "2oz — rum, Licor 43, cold brew concentrate", price: "13.50" },
+          { name: "Fire on the Tide", desc: "2oz — mezcal, Bitter Bianca, dry vermouth, orange bitters", price: "16.50" },
           { name: "Purple Reign", desc: "2oz — Empress 1908 gin, Bitter Bianca, lime juice, simple syrup, cava, sakura cherry bitters", price: "16.95" },
-          { name: "The Fino Print", desc: "2oz — sesame and kelp infused vodka, Tio Pepe fino sherry, saline solution, soda water", price: "13.95" }
+          { name: "Tidal Wave", desc: "2oz — vodka, gin, rum, tequila, triple sec, lemon juice, cranberry juice", price: "14.50" }
         ]
       },
       {
@@ -181,8 +171,8 @@ const MENUS = {
         note: "6oz / 9oz / 750ml",
         items: [
           { name: "Da Silva Vinho Tinto Syrah", desc: "Dry — smoke, black pepper, cassis", price: "12.50 / 18 / 50" },
-          { name: "Bench 1775 Merlot", desc: "Dry — leather, raspberry, spices", price: "11.50 / 16.50 / 46" },
-          { name: "Cono Sur Cabernet", desc: "Dry — currant, plum, red berries", price: "9.75 / 13.75 / 39" }
+          { name: "Joie Pinot Noir", desc: "Dry — red cherry, raspberry, baking spices", price: "13 / 19 / 52" },
+          { name: "Cono Sur Cabernet", desc: "Dry — currant, plum, red berries", price: "10 / 14.75 / 40" }
         ]
       },
       {
@@ -190,7 +180,7 @@ const MENUS = {
         note: "6oz / 9oz / 750ml",
         items: [
           { name: "Cono Sur Bicicleta Rosé", desc: "Dry — cherry, strawberry", price: "10 / 14.75 / 40" },
-          { name: "Hester Creek Pinot Gris", desc: "Dry — apple, lemon", price: "9.75 / 13.75 / 39" },
+          { name: "Hester Creek Pinot Gris", desc: "Dry — apple, lemon", price: "10 / 14.75 / 40" },
           { name: "Joie Noble Blend", desc: "Off-dry — lychee, stone fruit", price: "13 / 19 / 52" },
           { name: "Church & State Chardonnay", desc: "Dry — peaches, almond, vanilla", price: "11.50 / 16.50 / 46" }
         ]
@@ -265,12 +255,11 @@ const MENUS = {
       {
         name: "Snacks",
         items: [
-          { name: "Happy Hour Hot Dog", desc: "Tomatoes, pickles, red relish, mustard, pepperoncini, onions", price: "7.50" },
-          { name: "Happy Hour Veggie Dog", desc: "Tomatoes, pickles, red relish, mustard, pepperoncini, onions", price: "8.50" },
+          { name: "Avocado Tostadas", desc: "Corn tortilla, refried beans, avocado, red pepper pico, lettuce, feta", price: "8.50" },
           { name: "Happy Hour Guacamole", desc: "In-house guacamole, tortilla chips", price: "8.50" },
           { name: "Chopped Cheese Sliders", desc: "CAB beef, american cheddar, pickles, beach sauce", price: "9.50" },
           { name: "Pulled Pork Sliders", desc: "BBQ pulled pork, chipotle mayo, guacamole, pickled onion", price: "9.50" },
-          { name: "Avocado Tostada", desc: "Corn tortilla, refried beans, avocado, red pepper pico, lettuce, feta", price: "8.50" }
+          { name: "Happy Hour Hot Dog", desc: "Tomatoes, pickles, red relish, mustard, pepperoncini, onions", price: "7.50" }
         ]
       }
     ]

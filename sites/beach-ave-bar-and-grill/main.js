@@ -1,6 +1,6 @@
 /* Beach Ave Bar & Grill — page behaviour */
 
-/* --- Tonight's sunset at English Bay (49.2775, -123.1390) ---
+/* --- Tonight's sunset at Sunset Beach, False Creek (49.2775, -123.1390) ---
    Classic sunrise/sunset formula (US Naval Observatory method).
    No network calls; shown in Vancouver time. */
 function sunsetTonight() {

@@ -88,3 +88,10 @@ animations · lazy images with width/height.
 
 ## Placeholder / generated images
 None — every photo is the restaurant's own, taken from beachavebarandgrill.com.
+
+## Update 2026-11-23 (owner's requests)
+- Menus replaced with the October 2026 menus linked from beachavebarandgrill.com/menu
+  (food, brunch, drinks incl. happy hour). PDF links point to the October files.
+- Everything about reservations removed (buttons, FAQ entry, visit-page intro, meta text).
+  Earlier lines in this report about reserving by phone are superseded.
+- "English Bay" replaced with False Creek / Sunset Beach throughout.
